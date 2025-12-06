@@ -57,6 +57,19 @@ class CI_Controller {
 	 * @var	object
 	 */
 	private static $instance;
+    public $benchmark = array();
+    public $hooks = array();
+    public $config = array();
+    public $log = array();
+    public $utf8 = array();
+    public $uri = array();
+    public $router = array();
+    public $output = array();
+    public $security = array();
+    public $input = array();
+    public $lang = array();
+    public $load = array();
+    public $cache = array();
 
 	/**
 	 * Class constructor

@@ -38,7 +38,7 @@ $css_include[] = '<link rel="stylesheet" type="text/css" href="/css/DT_bootstrap
 
                     </div>
 					
-					<h1 align="center" style="margin-top:130px;">您好 ! 欢迎来到乐居项目管理后台</h1>
+					<h1 align="center" style="margin-top:130px;">您好<?=$_SESSION['loginInfo']['loginname']?> ! 欢迎来到管理后台</h1>
 
                 </div>
 

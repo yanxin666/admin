@@ -58,6 +58,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
+define("SINASRV_DB_HOST", "localhost"); // 定义数据库主机地址
+define("SINASRV_DB_PORT", "3306"); // 定义数据库端口
+define("SINASRV_DB_NAME", "xinlangleju"); // 定义数据库名称
+define("SINASRV_DB_USER", "root"); // 定义数据库用户名
+define("SINASRV_DB_PASS", ""); // 定义数据库密码
 
 $active_group = 'default';
 $query_builder = TRUE;
@@ -65,7 +70,7 @@ $query_builder = TRUE;
 $db['default'] = array(
 //  	'dsn'	=> 'mysql:host=192.168.1.8;dbname=xinlangleju;charset=UTF8',
 // 	'dsn'	=> 'mysql:host=127.0.0.1;dbname=xinlangleju;charset=UTF8',
-	'dsn'	=> 'mysql:host='.$_SERVER['SINASRV_DB_HOST'].':'.$_SERVER['SINASRV_DB_PORT'].';dbname='.$_SERVER['SINASRV_DB_NAME'].';charset=UTF8',
+	'dsn' => 'mysql:host='.SINASRV_DB_HOST.':'.SINASRV_DB_PORT.';dbname='.SINASRV_DB_NAME.';charset=UTF8',
 	'hostname' => '',
 //  	'username' => 'myroot8',
 //  	'password' => '8Ss72Xw82dSZG88e',
@@ -76,9 +81,9 @@ $db['default'] = array(
 // 	'username' => 'root',
 // 	'password' => '1234',
 	
-	'username' => $_SERVER['SINASRV_DB_USER'],
-	'password' => $_SERVER['SINASRV_DB_PASS'],
-	
+	'username' => SINASRV_DB_USER,
+	'password' => SINASRV_DB_PASS,
+
 	'database' => '',
 	'dbdriver' => 'pdo',
 	'dbprefix' => 'oa_',

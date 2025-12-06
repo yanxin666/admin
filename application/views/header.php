@@ -20,7 +20,7 @@
 
 	<meta content="" name="author" />
 
-	<!-- BEGIN GLOBAL MANDATORY STYLES -->
+	 BEGIN GLOBAL MANDATORY STYLES
 
 	<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
@@ -38,7 +38,7 @@
 
 	<link href="/css/uniform.default.css" rel="stylesheet" type="text/css"/>
 
-	<!-- END GLOBAL MANDATORY STYLES -->
+	 END GLOBAL MANDATORY STYLES
 
 	<?php
 	$css_include []= '';
@@ -67,17 +67,17 @@
 
 			<div class="container-fluid">
 
-				<!-- BEGIN LOGO -->
+<!--				 BEGIN LOGO-->
 
-<!-- 				<a class="brand" href="index.html"> -->
+ 				<a class="brand" href="/index.php?c=welcome">
 
-<!-- 				<img src="/images/logo.png" alt="logo" /> -->
+ 				<img src="/images/logo.png" alt="logo" />
 
-<!-- 				</a> -->
+ 				</a>
 
-				<!-- END LOGO -->
+<!--				 END LOGO-->
 
-				<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+<!--				 BEGIN RESPONSIVE MENU TOGGLER-->
 
 				<a href="javascript:;" class="btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
 
@@ -95,17 +95,17 @@
 
 					<li class="dropdown" id="header_notification_bar">
 
-<!-- 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> -->
+ 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 
-<!-- 						<i class="icon-warning-sign"></i> -->
+ 						<i class="icon-warning-sign"></i>
 
-<!-- 						<span class="badge">14</span> -->
+ 						<span class="badge">14</span>
 
-<!-- 						</a> -->
+ 						</a>
 
 						<ul class="dropdown-menu extended notification">
 
-							<!--<li><p>你有14条通知</p></li>
+							<li><p>你有14条通知</p></li>
 
 							<li>
 								<a href="#">
@@ -118,7 +118,7 @@
 							<li>
 								<a href="#">
 									<span class="label label-important"><i class="icon-bolt"></i></span>
-									Server #12 overloaded. 
+									Server #12 overloaded.
 									<span class="time">15 mins</span>
 								</a>
 							</li>
@@ -130,7 +130,7 @@
 									<span class="time">22 mins</span>
 								</a>
 							</li>
-							
+
 							<li>
 								<a href="#">
 									<span class="label label-info"><i class="icon-bullhorn"></i></span>
@@ -142,7 +142,7 @@
 							<li>
 								<a href="#">
 									<span class="label label-important"><i class="icon-bolt"></i></span>
-									数据库过载 68%. 
+									数据库过载 68%.
 									<span class="time">2 hrours</span>
 								</a>
 							</li>
@@ -153,7 +153,7 @@
 									2 用户 IP 阻塞.
 									<span class="time">5 hrs</span>
 								</a>
-							</li>-->
+							</li>
 
 							<li class="external">
 								<a href="#">查看所有通知 <i class="m-icon-swapright"></i></a>
@@ -169,17 +169,17 @@
 
 					<li class="dropdown" id="header_inbox_bar">
 
-<!-- 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> -->
+ 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 
-<!-- 						<i class="icon-envelope"></i> -->
+ 						<i class="icon-envelope"></i>
 
-<!-- 						<span class="badge">12</span> -->
+ 						<span class="badge">12</span>
 
-<!-- 						</a> -->
+ 						</a>
 
 						<ul class="dropdown-menu extended inbox">
 
-							<!--<li><p>你有12条新消息</p></li>
+							<li><p>你有12条新消息</p></li>
 
 							<li>
 								<a href="inbox.html?a=view">
@@ -228,17 +228,17 @@
 
 					<li class="dropdown" id="header_task_bar">
 
-<!-- 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> -->
+ 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 
-<!-- 						<i class="icon-tasks"></i> -->
+ 						<i class="icon-tasks"></i>
 
-<!-- 						<span class="badge">12</span> -->
+ 						<span class="badge">12</span>
 
-<!-- 						</a> -->
+ 						</a>
 
 						<ul class="dropdown-menu extended tasks">
 
-							<!--<li><p>你有12个等待任务</p>	</li>
+							<li><p>你有12个等待任务</p>	</li>
 
 							<li>
 								<a href="#">
@@ -310,7 +310,7 @@
 										<span style="width: 85%;" class="bar"></span>
 									</span>
 								</a>
-							</li>-->
+							</li>
 
 							<li class="external">
 								<a href="#">查看所有任务<i class="m-icon-swapright"></i></a>
@@ -331,12 +331,12 @@
 						</a>
 
 						<ul class="dropdown-menu">
-<!-- 							<li><a href="#"><i class="icon-user"></i> 资料</a></li> -->
-<!-- 							<li><a href="#"><i class="icon-calendar"></i>我的日程</a></li> -->
-<!-- 							<li><a href="#"><i class="icon-envelope"></i>收件箱(3)</a></li> -->
-<!-- 							<li><a href="#"><i class="icon-tasks"></i> 任务</a></li> -->
-<!-- 							<li class="divider"></li> -->
-<!-- 							<li><a href="#"><i class="icon-lock"></i>锁定屏幕</a></li> -->
+ 							<li><a href="#"><i class="icon-user"></i> 资料</a></li>
+ 							<li><a href="#"><i class="icon-calendar"></i>我的日程</a></li>
+ 							<li><a href="#"><i class="icon-envelope"></i>收件箱(3)</a></li>
+ 							<li><a href="#"><i class="icon-tasks"></i> 任务</a></li>
+ 							<li class="divider"></li>
+ 							<li><a href="#"><i class="icon-lock"></i>锁定屏幕</a></li>
 							<li><a href="/index.php?c=loginpage&m=loginout"><i class="icon-key"></i>退出</a></li>
 						</ul>
 					</li>
@@ -399,21 +399,20 @@
 
 				</li>
 				
-				<!--<php if(in_array('admin', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0){ ?>
-				<li class="start <php if($navshow == 'admin'){echo 'active';}?>">
+				<li class="start <?php if($navshow == 'admin'){echo 'active';}?>">
 
 					<a href="/index.php?c=admin">
 
-					<i class="icon-home"></i> 
+					<i class="icon-home"></i>
 
 					<span class="title">管理员管理</span>
-					
+
 					<span class="selected"></span>
 
 					</a>
 
 				</li>
-				<php }?>-->
+				<php }?>
 				
 				<li class="start <?php if($navshow == 'welcome'){echo 'active';}?>">
 
@@ -431,7 +430,10 @@
 
 				</li>
 				
-				<?php if((in_array('user', $shownavlist) && (@in_array('用户管理',$_SESSION['loginInfo']['auth']))) || (in_array('user', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+				<?php
+                if(in_array('user', $shownavlist)){
+
+                    ?>
 <!-- 				<php if(in_array('user', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0){ ?> -->
 				<li class="start <?php if($navshow == 'user'){echo 'active';}?>">
 
@@ -451,7 +453,7 @@
 				<?php }?>
 				
 				
-				<?php if((in_array('userauth', $shownavlist) && (@in_array('用户权限管理',$_SESSION['loginInfo']['auth']))) || (in_array('userauth', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+				<?php if(in_array('userauth', $shownavlist)){ ?>
 				<li class="start <?php if($navshow == 'userauth'){echo 'active';}?>">
 
 					<a href="/index.php?c=userauth">
@@ -467,7 +469,7 @@
 				</li>
 				<?php }?>
 				
-				<?php if((in_array('notify', $shownavlist) && $_SESSION['loginInfo']['is_notify'] == 1) || (in_array('notify', $shownavlist) && (@in_array('后台通知管理',$_SESSION['loginInfo']['auth']))) || (in_array('rsnotify', $shownavlist) && (@in_array('人事通知管理',$_SESSION['loginInfo']['auth']))) || (in_array('notify', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0) || (in_array('rsnotify', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+				<?php if(in_array('notify', $shownavlist)){ ?>
 <!-- 				<php if((in_array('notify', $shownavlist) && $_SESSION['loginInfo']['is_notify'] == 1)){ ?> -->
 				<li class=" start <?php if($navshow == 'notify' || $navshow == 'qtnotify' || $navshow == 'rsnotify'){echo 'active';}?>">
 					<a href="javascript:;">
@@ -476,11 +478,10 @@
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
-						<?php if((in_array('notify', $shownavlist) && $_SESSION['loginInfo']['is_notify'] == 1) || (in_array('notify', $shownavlist) && (@in_array('后台通知管理',$_SESSION['loginInfo']['auth']))) || (in_array('notify', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('notify', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=notify">
-							<i class="icon-cogs"></i>
-							后台通知管理</a>
+							<i class="icon-cogs"></i>后台通知管理</a>
 						</li>
 						<?php }?>
 <!-- 						<li > -->
@@ -488,7 +489,7 @@
 <!-- 							<i class="icon-cogs"></i> -->
 <!-- 							前端通知管理</a> -->
 <!-- 						</li> -->
-						<?php if((in_array('rsnotify', $shownavlist) && (@in_array('人事通知管理',$_SESSION['loginInfo']['auth']))) || (in_array('rsnotify', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('rsnotify', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=rsnotify">
 							<i class="icon-cogs"></i>
@@ -499,7 +500,7 @@
 				</li>
 				<?php }?>
 				
-				<?php if((in_array('slide', $shownavlist) && (@in_array('发布轮播图',$_SESSION['loginInfo']['auth']))) || (in_array('slide', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+				<?php if(in_array('slide', $shownavlist)){ ?>
 				<li class="start <?php if($navshow == 'slide'){echo 'active';}?>">
 
 					<a href="/index.php?c=slide">
@@ -513,7 +514,7 @@
 				</li>
 				<?php }?>
 				
-				<?php if((in_array('greetings', $shownavlist) && (@in_array('问候语管理',$_SESSION['loginInfo']['auth']))) || (in_array('expense', $shownavlist) && (@in_array('报销管理',$_SESSION['loginInfo']['auth']))) || (in_array('bank', $shownavlist) && (@in_array('发卡行管理',$_SESSION['loginInfo']['auth']))) || (in_array('payment', $shownavlist) && (@in_array('薪酬密码管理',$_SESSION['loginInfo']['auth']))) || (in_array('process', $shownavlist) && (@in_array('办理流程管理',$_SESSION['loginInfo']['auth']))) || (in_array('greetings', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0) || (in_array('expense', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0) || (in_array('bank', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0) || (in_array('payment', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0) || (in_array('process', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+				<?php if(in_array('greetings', $shownavlist)){ ?>
 <!-- 				<php if(in_array('appmenu', $shownavlist)){ ?> -->
 				<li class=" start <?php if($navshow == 'greetings' || $navshow == 'expense' || $navshow == 'bank' || $navshow == 'payment' || $navshow == 'process'){echo 'active';}?>">
 					<a href="javascript:;">
@@ -522,7 +523,7 @@
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
-						<?php if((in_array('greetings', $shownavlist) && (@in_array('问候语管理',$_SESSION['loginInfo']['auth']))) || (in_array('greetings', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('greetings', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=greetings">
 							<i class="icon-cogs"></i>
@@ -536,7 +537,7 @@
 <!-- 							报销管理</a> -->
 <!-- 						</li> -->
 <!-- 						<php }?> -->
-						<?php if((in_array('bank', $shownavlist) && (@in_array('发卡行管理',$_SESSION['loginInfo']['auth']))) || (in_array('bank', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('bank', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=bank">
 							<i class="icon-cogs"></i>
@@ -550,7 +551,7 @@
 <!-- 							薪酬密码管理</a> -->
 <!-- 						</li> -->
 <!-- 						<php }?> -->
-						<?php if((in_array('process', $shownavlist) && (@in_array('办理流程管理',$_SESSION['loginInfo']['auth']))) || (in_array('process', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('process', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=process">
 							<i class="icon-cogs"></i>
@@ -561,7 +562,7 @@
 				</li>
 				<?php }?>
 				
-				<?php if((in_array('kaoqin', $shownavlist) && (@in_array('考勤管理',$_SESSION['loginInfo']['auth']))) || (in_array('kaoqin', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+				<?php if(in_array('kaoqin', $shownavlist)){ ?>
 <!-- 				<php if(in_array('kaoqin', $shownavlist)){ ?> -->
 				<li class="start <?php if($navshow == 'kaoqin'){echo 'active';}?>">
 
@@ -578,7 +579,7 @@
 				</li>
 				<?php }?>
 				
-				<?php if((in_array('zhaopin', $shownavlist) && (@in_array('招聘职位管理',$_SESSION['loginInfo']['auth']))) || (in_array('tuijian', $shownavlist) && (@in_array('推荐好友管理',$_SESSION['loginInfo']['auth']))) || (in_array('url', $shownavlist) && (@in_array('网址推荐管理',$_SESSION['loginInfo']['auth']))) || (in_array('administrative', $shownavlist) && (@in_array('行政联系管理',$_SESSION['loginInfo']['auth']))) || (in_array('bus', $shownavlist) && (@in_array('班车线路管理',$_SESSION['loginInfo']['auth']))) || (in_array('service', $shownavlist) && (@in_array('服务支持管理',$_SESSION['loginInfo']['auth']))) || (in_array('zhaopin', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0) || (in_array('tuijian', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0) || (in_array('url', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0) || (in_array('administrative', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0) || (in_array('bus', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0) || (in_array('service', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+				<?php if(in_array('zhaopin', $shownavlist)){ ?>
 <!-- 				<php if(in_array('appmenu', $shownavlist)){ ?> -->
 				<li class=" start <?php if($navshow == 'zhaopin' || $navshow == 'tuijian' || $navshow == 'url' || $navshow == 'administrative' || $navshow == 'bus' || $navshow == 'service'){echo 'active';}?>">
 					<a href="javascript:;">
@@ -587,42 +588,42 @@
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
-						<?php if((in_array('zhaopin', $shownavlist) && (@in_array('招聘职位管理',$_SESSION['loginInfo']['auth']))) || (in_array('zhaopin', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('zhaopin', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=zhaopin">
 							<i class="icon-cogs"></i>
 							招聘职位管理</a>
 						</li>
 						<?php }?>
-						<?php if((in_array('tuijian', $shownavlist) && (@in_array('推荐好友管理',$_SESSION['loginInfo']['auth']))) || (in_array('tuijian', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('tuijian', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=tuijian">
 							<i class="icon-cogs"></i>
 							推荐好友管理</a>
 						</li>
 						<?php }?>
-						<?php if((in_array('url', $shownavlist) && (@in_array('网址推荐管理',$_SESSION['loginInfo']['auth']))) || (in_array('url', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('url', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=url">
 							<i class="icon-cogs"></i>
 							网址推荐管理</a>
 						</li>
 						<?php }?>
-						<?php if((in_array('administrative', $shownavlist) && (@in_array('行政联系管理',$_SESSION['loginInfo']['auth']))) || (in_array('administrative', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('administrative', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=administrative">
 							<i class="icon-cogs"></i>
 							行政联系管理</a>
 						</li>
 						<?php }?>
-						<?php if((in_array('bus', $shownavlist) && (@in_array('班车线路管理',$_SESSION['loginInfo']['auth']))) || (in_array('bus', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('bus', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=bus">
 							<i class="icon-cogs"></i>
 							班车线路管理</a>
 						</li>
 						<?php }?>
-						<?php if((in_array('service', $shownavlist) && (@in_array('服务支持管理',$_SESSION['loginInfo']['auth']))) || (in_array('service', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('service', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=service">
 							<i class="icon-cogs"></i>
@@ -633,7 +634,7 @@
 				</li>
 				<?php }?>
 				
-				<?php if((in_array('appmenu', $shownavlist) && (@in_array('乐居菜单管理',$_SESSION['loginInfo']['auth']))) || (in_array('rsappmenu', $shownavlist) && (@in_array('人事菜单管理',$_SESSION['loginInfo']['auth']))) || (in_array('appmenu', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0) || (in_array('rsappmenu', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+				<?php if(in_array('appmenu', $shownavlist)){ ?>
 <!-- 				<php if(in_array('appmenu', $shownavlist)){ ?> -->
 				<li class=" start <?php if($navshow == 'appmenu' || $navshow == 'rsappmenu'){echo 'active';}?>">
 					<a href="javascript:;">
@@ -642,14 +643,14 @@
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
-						<?php if((in_array('appmenu', $shownavlist) && (@in_array('乐居菜单管理',$_SESSION['loginInfo']['auth']))) || (in_array('appmenu', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('appmenu', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=appmenu">
 							<i class="icon-cogs"></i>
 							乐居菜单管理</a>
 						</li>
 						<?php }?>
-						<?php if((in_array('rsappmenu', $shownavlist) && (@in_array('人事菜单管理',$_SESSION['loginInfo']['auth']))) || (in_array('rsappmenu', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('rsappmenu', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=rsappmenu">
 							<i class="icon-cogs"></i>
@@ -660,7 +661,7 @@
 				</li>
 				<?php }?>
 				
-				<?php if((in_array('team', $shownavlist) && (@in_array('后台联系组管理',$_SESSION['loginInfo']['auth']))) || (in_array('team', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+				<?php if(in_array('team', $shownavlist)){ ?>
 <!-- 				<php if(in_array('expense', $shownavlist)){ ?> -->
 				<li class="start <?php if($navshow == 'team'){echo 'active';}?>">
 
@@ -677,7 +678,7 @@
 				</li>
 				<?php }?>
 				
-				<?php if((in_array('org', $shownavlist) && (@in_array('组织机构管理',$_SESSION['loginInfo']['auth']))) || (in_array('org', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+				<?php if(in_array('org', $shownavlist)){ ?>
 <!-- 				<php if(in_array('org', $shownavlist)){ ?> -->
 				<li class="start <?php if($navshow == 'org'){echo 'active';}?>">
 
@@ -711,7 +712,7 @@
 <!-- 				</li> -->
 <!-- 				<php }?> -->
 				
-				<?php if((in_array('view', $shownavlist) && (@in_array('意见反馈管理',$_SESSION['loginInfo']['auth']))) || (in_array('jobtalk', $shownavlist) && (@in_array('工作沟通管理',$_SESSION['loginInfo']['auth']))) || (in_array('question', $shownavlist) && (@in_array('更多问题管理',$_SESSION['loginInfo']['auth']))) || (in_array('usehelp', $shownavlist) && (@in_array('使用帮助管理',$_SESSION['loginInfo']['auth']))) || (in_array('view', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0) || (in_array('jobtalk', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0) || (in_array('question', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0) || (in_array('usehelp', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+				<?php if(in_array('view', $shownavlist)){ ?>
 <!-- 				<php if(in_array('appmenu', $shownavlist)){ ?> -->
 				<li class=" start <?php if($navshow == 'view' || $navshow == 'jobtalk' || $navshow == 'question' || $navshow == 'usehelp'){echo 'active';}?>">
 					<a href="javascript:;">
@@ -720,28 +721,28 @@
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
-						<?php if((in_array('view', $shownavlist) && (@in_array('意见反馈管理',$_SESSION['loginInfo']['auth']))) || (in_array('view', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('view', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=view">
 							<i class="icon-cogs"></i>
 							意见反馈管理</a>
 						</li>
 						<?php }?>
-						<?php if((in_array('jobtalk', $shownavlist) && (@in_array('工作沟通管理',$_SESSION['loginInfo']['auth']))) || (in_array('jobtalk', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('jobtalk', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=jobtalk">
 							<i class="icon-cogs"></i>
 							工作沟通管理</a>
 						</li>
 						<?php }?>
-						<?php if((in_array('question', $shownavlist) && (@in_array('更多问题管理',$_SESSION['loginInfo']['auth']))) || (in_array('question', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('question', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=question">
 							<i class="icon-cogs"></i>
 							更多问题管理</a>
 						</li>
 						<?php }?>
-						<?php if((in_array('usehelp', $shownavlist) && (@in_array('使用帮助管理',$_SESSION['loginInfo']['auth']))) || (in_array('usehelp', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
+						<?php if(in_array('usehelp', $shownavlist)){ ?>
 						<li >
 							<a href="/index.php?c=usehelp">
 							<i class="icon-cogs"></i>
@@ -752,8 +753,7 @@
 				</li>
 				<?php }?>
 				
-				<?php if((in_array('version', $shownavlist) && (@in_array('版本管理',$_SESSION['loginInfo']['auth']))) || (in_array('version', $shownavlist) && $_SESSION['loginInfo']['loginid'] == 0)){ ?>
-<!-- 				<php if(in_array('kaoqin', $shownavlist)){ ?> -->
+				<?php if(in_array('version', $shownavlist)){ ?>
 				<li class="start <?php if($navshow == 'version'){echo 'active';}?>">
 
 					<a href="/index.php?c=version">
@@ -768,7 +768,7 @@
 
 				</li>
 				<?php }?>
-				
+
 				
 				<!--<li class="<!--active--> <!-- ">-->
 

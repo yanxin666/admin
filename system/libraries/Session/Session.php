@@ -134,7 +134,9 @@ class CI_Session {
 			)
 		)
 		{
-			unset($_COOKIE[$this->_config['cookie_name']]);
+            // todo unset cookie for testing
+//			unset($_COOKIE[$this->_config['cookie_name']]);
+//            var_dump($_COOKIE,$this->_config['cookie_name']);
 		}
 
 		session_start();

@@ -1305,7 +1305,6 @@ class CI_Loader {
 				$this->database();
 				$autoload['libraries'] = array_diff($autoload['libraries'], array('database'));
 			}
-
 			// Load all other libraries
 			foreach ($autoload['libraries'] as $item)
 			{

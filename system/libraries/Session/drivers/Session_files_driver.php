@@ -112,6 +112,7 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 	 */
 	public function open($save_path, $name)
 	{
+//        var_dump("打开路径".$save_path);
 		if ( ! is_dir($save_path))
 		{
 			if ( ! mkdir($save_path, 0700, TRUE))
@@ -144,6 +145,7 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 	 */
 	public function read($session_id)
 	{
+//        var_dump("读取路径".$this->_file_path.$session_id);
 		// This might seem weird, but PHP 5.6 introduces session_reset(),
 		// which re-reads session data
 		if ($this->_file_handle === NULL)
@@ -216,6 +218,7 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 	 */
 	public function write($session_id, $session_data)
 	{
+//        var_dump("写入路径".$this->_file_path.$session_id);
 		// If the two IDs don't match, we have a session_regenerate_id() call
 		// and we need to close the old handle and open a new one
 		if ($session_id !== $this->_session_id && ( ! $this->close() OR $this->read($session_id) === FALSE))

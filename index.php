@@ -281,9 +281,8 @@ switch (ENVIRONMENT)
 	}
 
 	define('VIEWPATH', $view_folder);
-    define("SINASRV_DATA_DIR", BASEPATH . '/tmp/session_data');
 
-$_SERVER['SINASRV_DATA_DIR'] = BASEPATH . 'session_data';
+    $_SERVER['SINASRV_DATA_DIR'] = dirname(__FILE__) . '\tmp\session_data'; // 设置全局变量，供系统使用
 
 /*
  * --------------------------------------------------------------------
