@@ -1,0 +1,30 @@
+﻿/*重置*/
+a{ text-decoration:none; color:#333333;}
+img{ display:block; border:0;}
+h1,h2,h3,h4{font-family:"微软雅黑"; font-weight:normal; margin:0;}
+p{ margin:0;}
+
+/*栏目表单*/
+.columnbox{ background-color:#ededed;}
+.column4{max-width:1200px; margin-left:auto; margin-right:auto; overflow:hidden;}
+.column4 h4,.column4 p{text-align:center; color:#333333;}
+h4{ font-size:30px; margin-top:50px;}
+.column4 p{ font-size:20px; margin-top:40px; margin-bottom:60px;}
+
+.listbox{ max-width:950px; overflow:hidden; margin-bottom:30px; margin-left:auto; margin-right:auto;}
+/*.list_left,.list_right{ float:left;}*/
+.list_left{ float:left;}
+.list_right{ float:right;}
+.list_left{margin-left:50px; margin-right:50px; }
+.list_right{margin-left:50px; margin-right:50px;}
+.list1{ overflow:hidden; max-width:400px; min-width:300px; height:56px; border:2px solid #3498db; border-radius:10px; box-sizing:border-box; overflow:show; background-color:#f1f1f1;}
+.list1 *{ float:left;}
+.list1 input{ height:50px; min-width:390px; max-width:300px; border:none; background-color:#f1f1f1; color:#999999; font-size:16px; outline:0px; margin-left:auto; margin-right:auto;}
+.list1 textarea{ height:170px; min-width:390px; max-width:300px; border:none; background-color:#f1f1f1; color:#999999; font-size:16px; outline:0px; margin-left:auto; margin-right:auto; line-height:40px;}
+.btn_ture{ width:140px; height:40px; border:2px solid #3498db; box-sizing:border-box; border-radius:20px; margin-left:auto; margin-right:auto; margin-bottom:100px;}
+.btn_ture a{ color:#3498db; line-height:36px; display:block; text-align:center;font-family:"微软雅黑"; letter-spacing:2px;}
+.valierror{color:red;}
+.formcss{ height:40px;}
+#sub{ height:36px;width:100px;line-height:36px;font-size:16px;color:#3498db;border:0;background-color:#ededed;}
+
+

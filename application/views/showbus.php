@@ -1,0 +1,124 @@
+<?php
+$css_include[] = '<link rel="stylesheet" type="text/css" href="/css/select2_metro.css" />';
+$css_include[] = '<link rel="stylesheet" type="text/css" href="/css/DT_bootstrap.css" />';
+?>
+
+<?php include VIEWPATH . 'header.php' ?>
+
+
+                <!-- BEGIN PAGE CONTENT-->
+                
+                <div class="row-fluid">
+
+                    <div class="span12">
+
+                        <!-- BEGIN EXAMPLE TABLE PORTLET-->
+
+                        <div class="portlet box light-grey">
+
+                            <div class="portlet-title">
+
+                                <div class="caption"><i class="icon-globe"></i>班车线路列表</div>
+
+                                <div class="tools">
+
+                                    <a href="javascript:;" class="collapse"></a>
+
+                                    <a href="#portlet-config" data-toggle="modal" class="config"></a>
+
+                                    <a href="javascript:;" class="reload"></a>
+
+                                    <a href="javascript:;" class="remove"></a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="portlet-body">
+
+                                <div class="clearfix">
+
+                                    <div class="btn-group">
+
+                                        <button id="sample_editable_1_new" class="btn green" onClick='location="/index.php?c=bus&m=add"'>
+
+                                        添加 <i class="icon-plus"></i>
+
+                                        </button>
+                                        
+                                        <button class="btn" onClick='deleteList();'>
+
+                                        批量删除
+
+                                        </button>
+
+                                    </div>
+
+<!--                                     <div class="btn-group pull-right"> -->
+
+<!--                                         <button class="btn dropdown-toggle" data-toggle="dropdown"> -->
+<!--                                             工具 <i class="icon-angle-down"></i> -->
+<!--                                         </button> -->
+
+<!--                                         <ul class="dropdown-menu pull-right"> -->
+<!--                                             <li><a href="#">打印</a></li> -->
+<!--                                             <li><a href="#">保存成 PDF</a></li> -->
+<!--                                             <li><a href="#">Excel导出</a></li> -->
+<!--                                         </ul> -->
+
+<!--                                     </div> -->
+
+                                </div>
+
+                                <table class="table table-striped table-bordered table-hover" id="sample_bus_1">
+
+                                    <thead>
+                                        <tr>
+                                            <th style="width:8px;">
+                                                <input type="checkbox" class="group-checkable" data-set="#sample_bus_1 .checkboxes" />
+                                            </th>
+                                            <th>ID</th>
+                                            <th class="hidden-480">线路名称</th>
+											<th class="hidden-480">班车线路</th>
+                                            <th class="hidden-480">早晚发车时间</th>
+                                            <th class="hidden-480">司机名称</th>
+                                            <th class="hidden-480">司机手机号</th>
+                                            <th class="hidden-480">车牌号</th>
+                                            <th class="hidden-480">班车长</th>
+                                            <th class="hidden-480">班车长手机号</th>
+                                            <th class="hidden-480">班车长邮箱</th>
+                                            <th class="hidden-480">操作</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="12">正在加载数据...</td>
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+
+                            </div>
+
+                        </div>
+
+                        <!-- END EXAMPLE TABLE PORTLET-->
+
+                    </div>
+
+                </div>
+
+                <!-- END PAGE CONTENT-->
+<?php
+$js_include[] = '<script type="text/javascript" src="/js/select2.min.js"></script>';
+$js_include[] = '<script type="text/javascript" src="/js/jquery.dataTables.js"></script>';
+
+$js_include[] = '<script type="text/javascript" src="/js/DT_bootstrap.js"></script>';
+$js_include[] = '<script type="text/javascript" src="/js/webadmin/showbus.js"></script>';
+?>
+<?php include VIEWPATH . 'footer.php' ?>
+
+<script>
+
+</script>

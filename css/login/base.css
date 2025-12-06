@@ -1,0 +1,34 @@
+body{
+		margin:0px auto;
+	}
+#QQ_talk{
+	     position: fixed;
+	     top: 345px;
+	     right: 0px;
+	     z-index: 9999;
+	     /*width: 100px;*/
+	     /*padding: 20px;*/
+	     float: right;
+	     /*height:3000px;*/
+	     /*border: 1px solid red;*/
+	}
+#QQ_talk1{
+	     position: fixed;
+	     top: 430px;
+	     right: 0px;
+	     z-index: 9999;
+	     /*width: 100px;*/
+	     /*padding: 20px;*/
+	     float: right;
+	     /*height:3000px;*/
+	     /*border: 1px solid red;*/
+	}
+/*	min-width: 780px;
+	max-width: 1260px;
+	body{margin: 10px auto;}
+	width:expression_r(document.body.clientWidth < 782? "780px" : document.body.clientWidth > 1262? "1260px" : "auto");
+*/
+
+
+
+
